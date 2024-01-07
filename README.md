@@ -4,6 +4,7 @@ An Ace will have a value of 11 unless that would give a player or the dealer a s
 
 
 Below is a sample run of how my project works. 
+
 $echo "Reset" > /dev/blackJack 
 $ cat /dev/blackJack 
 OK
