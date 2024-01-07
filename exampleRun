@@ -1,0 +1,27 @@
+Below is a sample run of how my project works. 
+
+$echo "Reset" > /dev/blackJack 
+$ cat /dev/blackJack 
+OK
+$ echo "Shuffle" > /dev/blackJack 
+$ cat /dev/blackJack 
+OK
+$ echo "Deal" > /dev/blackJack 
+$ cat /dev/blackJack 
+Player has 7 of Spades and 11 of Diamonds for a total of 17.
+$ echo "NEXT" > /dev/blackJack 
+$ cat /dev/blackJack 
+Does Player want another card? If so, respond with Hit or No for hold.
+$ echo "No" > /dev/blackJack 
+$ cat /dev/blackJack 
+Dealer has 4 of Clubs and 13 of Diamonds and 2 of Clubs and 8 of Hearts for a total of 24.
+$ echo "WIN" > /dev/blackJack 
+$ cat /dev/blackJack 
+player has won
+$ echo "CONTINUE" > /dev/blackJack 
+$ cat /dev/blackJack 
+Would you like to continue using the same deck?
+$ echo "no" > /dev/blackJack 
+$ echo "Reset" > /dev/blackJack 
+$ cat /dev/blackJack 
+OK
